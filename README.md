@@ -32,7 +32,6 @@ A console-based student management and college portal application built using Py
 ```text
 student_management_system/
 │
-├── .env
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
@@ -47,6 +46,8 @@ student_management_system/
 ├── fees.py
 ├── timetable.py
 └── notices.py
+
+`.env` is required for local database configuration but is intentionally excluded from the repository for security reasons. Use `.env.example` as a template.
 ```
 
 ## Author
